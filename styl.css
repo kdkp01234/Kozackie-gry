@@ -1,0 +1,29 @@
+body {
+    /* ustawiamy kolor tła strony */
+    background-color: rgb(88, 0, 129);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    padding: 20px;
+}
+
+/* nieodwiedzony link */
+a:link {
+    color: rgb(0, 238, 255);
+    text-decoration: none;
+  }
+  
+  /* odwiedzony link */
+  a:visited {
+    color: rgb(0, 238, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 184, 9);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 184, 9);
+  }
